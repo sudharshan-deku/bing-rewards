@@ -1,0 +1,23 @@
+{
+  "name": "Batman",
+  "version": "0.1.0",
+  "description": "I am Batman",
+  "permissions": ["storage", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.bing.com/*" , "http://*.microsoft.com/*"],
+      "js": ["popup.js"]
+    }
+  ],
+  
+  "action": {
+    "default_icon": {
+      "16": "batman.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "I am batman",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
