@@ -9,4 +9,4 @@ the page reloads every 40 sec
 
 the tabs which are not used are closed every 50 sec
 
-use ABS extension along with it to full automation
+use ABS extension along with it to for  full automation
