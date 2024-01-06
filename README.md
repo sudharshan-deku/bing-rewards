@@ -1,6 +1,4 @@
 # bing-rewards
-automation for bing rewards
-
 This a chrome extension made for automating bing rewards 
 
 it opens the unclicked reward buttons 
